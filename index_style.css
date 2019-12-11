@@ -1,0 +1,593 @@
+body .fixedIconsRight
+{
+    color:rgb(102, 102, 102);   
+    position: absolute;
+    font-size: 1.375rem;
+    z-index: 333;
+    top: 25%;
+    right: 0;
+    position: fixed;
+}
+body .fixedIconsRight .fixedIcon:hover
+{
+    color: #0275d8;
+}
+.Home
+{
+    background:url('images/img4.jpg');
+    background-size: cover;
+    font-family:"Open Sans", arial !important;
+  }
+.Home_OverLayer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.Home .navbar a
+{
+    color: white;
+}
+.Home .navbar a:hover
+{
+    color:rgb(76, 175, 80);
+}
+.Home .navbar-brand
+{
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+}
+.Home .navbar-brand:hover 
+{
+    color:white !important;
+}
+.Home .nav-link
+{
+    font-size: 0.9rem !important;
+    font-weight: 900 !important;
+    padding-right: 0.8rem !important;
+}
+.Home .Home_Nav
+{
+    position: fixed !important;
+    z-index: 999!important;
+}
+.Home .Home_Nav.scrolled
+{
+    background-color: white !important;
+    transition: all !important;
+}
+.Home .Home_Nav.scrolled .navbar a
+{
+    color:rgb(18, 18, 18) !important; 
+    transition:color !important;
+}
+.Home .Home_Desc
+{
+    color: white !important;
+}
+.Home .Home_Desc h1
+{
+    font-size:1.25rem !important;
+    font-weight:500 !important;
+}
+.Home .Home_Desc p
+{
+    font-size:3.2rem !important;
+    font-weight:500 !important;   
+}
+.text-white
+{
+    color: white !important;
+}
+.border-transparent
+{
+    border-color: transparent !important;
+}
+.Home .Home_Desc button
+{
+    
+    background-color:rgb(76, 175, 80);
+    font-size:0.8rem !important;
+    font-weight: 800 !important;
+    letter-spacing:0.5px;
+    text-align: center;
+    transition: 0s 0s color,0s 0s background-color;
+}
+.Home .Home_Desc button:hover
+{
+    background-color:white;
+    color: black !important;
+}
+.Sec1 .card-body
+{
+padding: 0rem 0rem 0rem 1rem !important;
+margin: 0% !important;
+}
+.Sec1 .Card_Icon
+{
+    font-size: 1.7rem !important;
+    color:rgb(76, 175, 80);
+}
+.Sec1 h4
+{
+    color: rgb(48, 48, 48);
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+
+}
+.Sec1 p
+{
+    font-size: 1.2rem !important;
+    color: rgb(48, 48, 48);
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.85rem !important;
+
+}
+.Sec2 .MainTitle h1 , .Sec7 .MainTitle h1
+{
+    color:rgb(48, 48, 48);
+    font-size:2.25rem;
+    font-weight: 400;
+}
+.Sec2 .MainTitle p , .Sec7 .MainTitle p
+{
+    font-size:1.25rem;
+    color:rgb(136, 136, 136);
+    font-weight: 400;
+}
+.Sec2 h4
+{
+    color:rgb(48, 48, 48);
+    font-weight: 400;
+    font-size:1.2rem;
+}
+.Sec2 p
+{
+    color:rgb(136, 136, 136);
+    font-size:1.1rem;
+    line-height: 1.86rem !important;
+    font-weight:400;
+}
+.Sec2_Button
+{
+    color:rgb(102, 102, 102);
+    font-size:1rem;
+    font-weight: 400;
+    transition:0s 0s all,0.1s 0s left;
+}
+.Sec2_Button:hover
+{
+color:rgb(76, 175, 80) !important;
+} 
+.Sec2_Button .Sec2_i
+{
+    position:  relative !important ;
+    left:0 !important;
+    top: 0 !important;
+}
+.Sec2_Button:hover .Sec2_i
+{
+    left:0.2rem !important;
+}
+.Sec2_Button label
+{
+    margin-right: 0.5rem !important;
+}
+.Sec2 .Sec2_Img
+{
+    overflow:hidden !important;
+}
+.Sec2 .card img
+{
+    transition:0.4s 0s transform;
+}
+.Sec2 .card img:hover
+{
+    transform:scale(1.1,1.1);
+}
+.Sec3 ul
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.Sec3 li
+{
+    list-style-type: none;
+    display: flex;
+}
+.Sec3 p
+{
+    color:rgb(104, 104, 104);
+    font-size:1rem;
+    font-weight:400;
+}
+.Sec3 li p
+{
+    margin-left: 1rem !important;
+}
+.Sec3 h1
+{
+    font-size:1.875rem !important;
+    font-weight:400 !important;
+    color:rgb(48, 48, 48);
+    line-height: 2.5rem !important;
+}
+.Sec3 button
+{
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    transition:0.1s 0s background-color;
+}
+.Sec3 button:hover
+{
+    background-color:black ;
+}
+.Sec4 .CommentIcon
+{
+    color:rgb(76, 175, 80);
+    text-align: center;
+    font-size: 2.49rem;
+    font-weight: 400;
+}
+.Sec4 p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.85rem;
+}
+.Sec4 .card-body::after
+{
+    content:"";
+    width: 0; 
+    height: 0;
+    border-top:solid 2rem teal;
+    border-width: 1.2rem !important;
+    border-left: 1.2rem solid transparent;
+    border-right: 1.2rem solid transparent;
+    border-top: 1.2rem solid white;
+    position: relative !important;
+    bottom: -4rem !important;
+    left: 2rem !important;
+}
+.Sec4 h1
+{
+    font-size: 0.89rem;
+    font-weight: 400;
+    line-height: 1.74rem;
+    color: rgb(104, 104, 104);
+}
+.Sec4 h3
+{
+    font-size: 0.89rem;
+    font-weight: 400;
+    line-height: 1.74rem;
+    color: lightgrey;
+}
+.Sec5 
+{
+    font-size: 2.125rem;
+    color:rgba(0, 0, 0, 0.4);
+}
+.Sec5 .card
+{
+    border: none !important;
+}
+.Sec5 h4
+{
+    color:rgba(0, 0, 0, 0.75);
+    font-size:3.25rem;
+    font-weight:400;
+    line-height:3.25rem;
+}
+.Sec5 p
+{
+    font-size:1.25rem;
+    font-weight:400;
+    line-height:1.74rem;
+}
+.Sec6
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url('images/tower.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    color:white;
+}
+.Sec6 .Sec6_Desc h1
+{
+    font-size:1.8rem;
+    font-weight:500;
+    line-height:1.937rem;
+}
+.Sec6 .Sec6_Desc p
+{
+    font-size:1.237rem;
+    font-weight:400;
+    line-height:2.3rem;
+
+}
+.Sec6 button
+{   
+    background-color:rgb(82, 143, 84);
+    box-sizing:content-box!important;
+    padding:1rem 2rem 1rem 2rem !important;
+    font-size:0.81rem !important;
+    font-weight:800;
+    letter-spacing:0.5px;
+    line-height:1.2rem;
+    text-transform:uppercase;
+    transition: 0.1s 0s all;
+
+}
+.Sec6 button:hover
+{
+    color:black !important;
+    background-color: white !important;
+}
+.Sec7 h4
+{
+    font-size: 1.19rem !important;
+    font-weight: 450 !important;
+    color: #303030 !important;
+    line-height: 1.38em;
+}
+.Sec7 p
+{
+    font-size: 0.937rem;
+    color:rgb(104, 104, 104); 
+    font-weight: 400;
+    line-height: 1.86rem;
+}
+.Sec7 .card 
+{
+    padding:0 0.6rem 0 0.6rem !important;
+    margin: 0 !important;
+}
+.Sec7 .card-body
+{
+    padding:0 0.1rem 0 0.1rem !important;
+
+}
+.Sec9 
+{
+    background-color:rgb(76, 175, 80);
+}
+.Sec9_Desc h1
+{
+    font-size:2rem;
+    font-weight:400;
+    color:white;
+}
+.Sec9_Desc p
+{
+    color:rgba(255, 255, 255, 0.82);   
+     font-size:1.25rem;
+    font-weight:400;
+}
+.Sec9 button
+{
+    font-size: 0.75rem ;
+    font-weight: 700;
+    line-height: 1.2rem;
+    padding:1.25rem 1.75rem;
+    transition: 0.1s 0s color,0.1s 0s background-color;
+}
+.Sec9 button:hover
+{
+    color:white;
+    background-color: rgb(18, 18, 18)!important;
+}
+.Sec10
+{
+    background-color:#1f2021;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(88, 96, 107);
+}
+.Sec10 p
+{
+    line-height: 1.86em;
+}
+.Sec10 h1
+{
+    color:rgb(255, 255, 255);
+    font-size: 1.06rem;
+    line-height: 1.46rem;
+}
+.Sec10 ul
+{
+    margin:0;
+    padding: 0;
+}
+.Sec10 li
+{
+    list-style-type: none;
+}
+.Sec10 .Desc_bg
+{
+background-color:rgb(48, 48, 48) !important;
+}
+.navbar-toggler 
+{
+    color: white;
+}
+.Sec10 .Websites
+{
+    width:30% !important;
+    visibility: hidden;
+}
+.Sec10 .Footer_Website
+{
+    font-size: 1.1rem !important;
+}
+@media (max-width:1000px)
+{
+    .Home .Home_Desc
+    {
+        padding:3rem 2rem !important;
+    }
+    .Home .Home_Desc h1
+    {
+        font-size: 1.3rem !important;
+    }
+    .Home .Home_Desc p
+    {
+        font-size: 2.2rem !important;
+    }
+    .Home .navbar-nav
+    {
+        padding-top:1rem !important;
+    }
+}
+@media (max-width:767px)
+{
+    .Home
+    {
+    background:transparent !important;
+  }
+    .Home .Home_Desc
+    {
+        background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/img4.jpg');
+        background-size: cover;
+    }
+    .Home .Home_Nav
+    {
+        position: initial !important;
+        background-color: white !important;
+    }
+    .Home .Home_Nav .navbar-brand 
+    {
+        color: black !important;
+    }
+    .Home .Home_Desc
+    {
+        padding:3rem 0rem!important;
+    }
+    .Home .Home_Desc h1
+    {
+        font-size: 1rem !important;
+    }
+    .Home .Home_Desc p
+    {
+        font-size: 1.7rem !important;
+    }
+    .Sec2 .card 
+    {
+        padding-left:2rem !important;
+        padding-right:2rem !important;
+        margin-top:1rem !important;
+        margin-bottom:1rem !important;
+    }    
+    .Home .navbar
+    {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .Home .navbar-collapse
+    {
+        background-color: white;
+    }
+    .Home .navbar-collapse a
+    {
+    color: black !important;
+    }
+    .Sec3
+    {
+        padding:0 !important;
+        margin: 0 !important;
+        padding-bottom:2rem !important;
+        margin-bottom:3rem !important;
+    }
+    .Sec4 
+    {
+        margin-bottom:1rem !important;
+        padding-bottom: 0rem !important;
+    }
+    .Sec4 .card-body
+    {
+        border:solid 1px lightgrey !important;
+    }
+    .Sec5
+    {
+        padding-top: 0 !important;
+    }
+    .Sec5 h4
+    {
+        font-size: 2.1rem !important;
+    }
+    .Sec5 p
+    {
+        font-size: 1.3rem !important;
+    }
+    .Sec6 .Sec6_Desc
+    {   
+        padding:0rem 2.2rem !important;
+    }
+    .Sec6 button
+    {
+        padding:0.6rem 1rem 0.6rem 1rem !important;
+    }
+    .Sec7 .MainTitle
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important;
+    }
+    .Sec7 .Sec7_Body
+    {
+        padding-left: 0 !important;
+        padding-right:0 !important;
+        margin-top: 0rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .Sec7 .card-body
+    {
+        margin-bottom: 1rem !important;
+    }
+    .Sec8 .Sec8_Part
+    {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 2.5rem !important;
+    }
+    .Sec9
+    {
+        padding-top:3rem !important;
+        padding-bottom: 4rem !important;
+    }
+    .Sec9 .row
+    {
+        text-align: center !important;
+    }
+    .Sec9_Button
+    {
+        margin: auto !important;
+    }
+    .Sec10 
+    {
+        text-align: center !important;
+    }
+    .Sec10 .Websites
+    {
+        visibility: visible !important;
+    }
+    .Desc_bg h1
+    {
+        text-align: start !important;
+    }
+    .DescPadding
+    {
+        padding-left:1rem !important;
+    }
+    .Desc_bg p
+    {
+        padding-left: 0rem !important;
+        text-align: start !important;
+    }
+    .Footer_CopyRight
+    {
+        padding-bottom: 2rem !important;
+    }
+}
+
